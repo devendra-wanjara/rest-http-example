@@ -1,0 +1,8 @@
+spring-boot-example-app:
+  name: rest-http
+  version: 2.5.8-1-SNAPSHOT
+  s2i:
+    # Default s2i source repository
+    source:
+      repo: https://github.com/devendra-wanjara/rest-http-example
+      ref: master
